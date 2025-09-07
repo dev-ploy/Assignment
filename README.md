@@ -1,125 +1,78 @@
-<<<<<<< HEAD
-CAMPUS EVENT MANAGEMENT PLATFORM 
+# Campus Event Management Platform
 
-The Campus Event Management Platform is a web-based application designed to streamline event management for educational institutions. It provides a comprehensive solution for creating, managing, and tracking campus events with features for student registration, attendance tracking, and feedback collection.
+The Campus Event Management Platform is a web-based application designed to help educational institutions organize and manage campus events efficiently. It provides tools for creating and tracking events, handling student registrations, monitoring attendance, and collecting feedback.
 
-For The Code Design: /Documentation/Docs.MD
+## Documentation
 
+You can find information about the code design and architecture in `/Documentation/Docs.MD`.
 
-FEATURES
-Event creation and management
-Student registration system
-Attendance tracking
-Feedback collection
-Reporting and analytics
-Admin and Student portals
-Responsive design
+## Features
 
-TECHNOLOGY STACK 
-Backend: Python Flask
-Database: MySQL 
-Frontend: HTML5, CSS3, JavaScript, Bootstrap 
-Icons: Font Awesome
-CORS: Flask-CORS 
+- Event creation and management
+- Student registration system
+- Attendance tracking
+- Feedback collection
+- Reporting and analytics
+- Separate portals for administrators and students
+- Responsive design for all devices
 
-PREREQUISITES
-Python 3.10+
-pip (Python package manager)
-Web browser (Chrome, Firefox, Safari, Edge)
+## Technology Stack
 
-PROJECT STRUCTURE
+- Backend: Python Flask
+- Database: MySQL
+- Frontend: HTML5, CSS3, JavaScript, Bootstrap
+- Icons: Font Awesome
+- CORS: Flask-CORS
+
+## Prerequisites
+
+- Python 3.10 or newer
+- pip (Python package manager)
+- A modern web browser (Chrome, Firefox, Safari, Edge)
+
+## Project Structure
+
+```
 campus-event-management/
-├── app.py                 # Main Flask application
-├── requirements.txt       # Python dependencies
-├── database_schema_sqlite.sql  # Database schema
-├── templates/            # HTML templates
+├── app.py                       # Main Flask application
+├── requirements.txt             # Python dependencies
+├── database_schema_sqlite.sql   # Database schema (SQLite format)
+├── templates/                   # HTML templates
 │   ├── index.html
 │   ├── admin.html
 │   └── student.html
-├── static/              # Static files
+├── static/                      # Static files
 │   ├── css/
 │   │   └── style.css
 │   └── js/
 │       ├── admin.js
 │       └── student.js
-└── campus_events.db     # SQLite database
+└── campus_events.db             # SQLite database
+```
 
-SCREENSHOTS
-check the logs folder for conversation with LLM tool (Claude being used in this case)
+## Screenshots
 
-DEPENDENCIES INSTALLATION
-pip install -r requirements.txt
+Screenshots and logs of conversations (with Claude) are available in the `logs` folder.
 
-RUN THE APPLICATION
-cd backend
-python app.py 
+## Installation
 
-ACCESS THE APPLICATION
-MAIN URL:http://localhost:5000
-ADMIN PORTAL: http://localhost:5000/admin
-STUDENT PORTAL: http://localhost:5000/student
-<<<<<<< HEAD
+1. Install dependencies using pip:
+    ```
+    pip install -r requirements.txt
+    ```
 
-=======
-=======
-CAMPUS EVENT MANAGEMENT PLATFORM 
+2. Run the application:
+    ```
+    cd backend
+    python app.py
+    ```
 
-The Campus Event Management Platform is a web-based application designed to streamline event management for educational institutions. It provides a comprehensive solution for creating, managing, and tracking campus events with features for student registration, attendance tracking, and feedback collection.
+## Accessing the Application
 
-For The Code Design: /Documentation/Docs.MD
+- Main URL: http://localhost:5000
+- Admin Portal: http://localhost:5000/admin
+- Student Portal: http://localhost:5000/student
 
+---
 
-FEATURES
-Event creation and management
-Student registration system
-Attendance tracking
-Feedback collection
-Reporting and analytics
-Admin and Student portals
-Responsive design
-
-TECHNOLOGY STACK 
-Backend: Python Flask
-Database: MySQL 
-Frontend: HTML5, CSS3, JavaScript, Bootstrap 
-Icons: Font Awesome
-CORS: Flask-CORS 
-
-PREREQUISITES
-Python 3.10+
-pip (Python package manager)
-Web browser (Chrome, Firefox, Safari, Edge)
-
-PROJECT STRUCTURE
-campus-event-management/
-├── app.py                 # Main Flask application
-├── requirements.txt       # Python dependencies
-├── database_schema_sqlite.sql  # Database schema
-├── templates/            # HTML templates
-│   ├── index.html
-│   ├── admin.html
-│   └── student.html
-├── static/              # Static files
-│   ├── css/
-│   │   └── style.css
-│   └── js/
-│       ├── admin.js
-│       └── student.js
-└── campus_events.db     # SQLite database
-
-SCREENSHOTS
-check the logs folder for conversation with LLM tool (Claude being used in this case)
-
-DEPENDENCIES INSTALLATION
-pip install -r requirements.txt
-
-RUN THE APPLICATION
-cd backend
-python app.py 
-
-ACCESS THE APPLICATION
-MAIN URL:http://localhost:5000
-ADMIN PORTAL: http://localhost:5000/admin
-STUDENT PORTAL: http://localhost:5000/student
->>>>>>> 5cfbeff (Added the CODE Files)
->>>>>>> ad9e91c (Added the Code files)
+This platform helps make campus events more organized, interactive, and data-driven.
