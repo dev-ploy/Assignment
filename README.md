@@ -57,3 +57,4 @@ ACCESS THE APPLICATION
 MAIN URL:http://localhost:5000
 ADMIN PORTAL: http://localhost:5000/admin
 STUDENT PORTAL: http://localhost:5000/student
+
